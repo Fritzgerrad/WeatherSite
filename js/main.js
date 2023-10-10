@@ -60,7 +60,7 @@ citySelect.addEventListener("change", async () => {
 
   console.log(JSON.parse(citySelect.value));
   const { long, lat } = JSON.parse(citySelect.value);
-  let url = `http://www.7timer.info/bin/api.pl?lon=${long}&lat=${lat}&product=civillight&output=json`;
+  let url = `https://www.7timer.info/bin/api.pl?lon=${long}&lat=${lat}&product=civillight&output=json`;
   console.log(1);
   try {
     const response = await fetch(url);
