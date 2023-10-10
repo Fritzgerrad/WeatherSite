@@ -52,7 +52,7 @@ citySelect.addEventListener("change", async () => {
   //weatherBox.innerHTML = "";
 
   const load = document.createElement("img");
-  load.src = "/APIs Website/images/load.gif";
+  load.src = "./images/load.gif";
   load.setAttribute("id","load");
 
   weatherBox.appendChild(load);
