@@ -3,7 +3,7 @@ body {
     color: blue;
     font-size: small;
     text-align:center;
-    background-image:url('/APIs Website/images/images.jpeg') ;
+    background-image:url('./images/images.jpeg') ;
     background-size:cover;
 
 }

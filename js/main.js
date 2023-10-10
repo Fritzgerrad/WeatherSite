@@ -94,7 +94,7 @@ citySelect.addEventListener("change", async () => {
       const dateDisp = document.createElement("h2");
       dateDisp.textContent = currDate;
       const weatherImg = document.createElement("img");
-      weatherImg.src = `/APIs Website/images/${weather}.png`;
+      weatherImg.src = `./images/${weather}.png`;
 
       thisDayUpper.appendChild(dateDisp);
       thisDayUpper.appendChild(weatherImg);
